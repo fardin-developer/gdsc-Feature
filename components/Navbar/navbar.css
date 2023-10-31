@@ -72,7 +72,6 @@ a {
 @media only screen and (max-width: 768px) {
     .nav {
         width: 100vw;
-        font-family: "Baloo Bhai";
     }
     .logoText .heading {
         font-size: 1.7rem;

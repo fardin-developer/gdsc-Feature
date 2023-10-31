@@ -1,0 +1,138 @@
+.nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    left: 0%;
+    right: 0%;
+    box-shadow: 0px 0px 5px 0px #111;
+    position: fixed;
+    width: 100vw;
+    z-index: 10000000;
+    box-sizing: border-box;
+
+}
+
+/* .imgShadow{
+    height: 7rem;
+    box-shadow: 0px 325px 220px 220px #3a3a3a98;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000000;
+
+} */
+
+.menu {
+    display: none;
+}
+
+.left {
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0%;
+
+}
+
+.left img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+.logoText .heading {
+    font-size: 2rem;
+
+}
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    margin-right: 3rem;
+}
+
+.right li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        width: 100vw;
+        font-family: "Baloo Bhai";
+    }
+    .logoText .heading {
+        font-size: 1.7rem;
+    }
+    .logoText .subHeading {
+        font-size: 1.4rem;
+    }
+    .right {
+        display: none;
+    }
+    .menu {
+        display: block;
+        margin-right: 3rem;
+    }
+
+    /* Set initial position off-screen */
+    .menuList {
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        width: 60vw;
+        padding: 0 20px 30px 20px;
+        top: 6rem;
+        bottom: 0;
+        right: -60vw;
+        border-radius: 1rem;
+        transition: right 0.5s ease; /* Smooth transition */
+    }
+
+    .menuList.active {
+        right: 0; 
+    }
+
+    .menuList a {
+        font-weight: 200;
+    }
+
+    li {
+        margin-top: 20px;
+        border-bottom: 1px solid rgb(73, 72, 72);
+    }
+
+    li a {
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .menuList{
+        display: none;
+    }
+   
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 830px) {
+    .logoText .heading {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+

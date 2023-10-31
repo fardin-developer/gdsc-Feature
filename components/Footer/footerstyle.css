@@ -1,0 +1,126 @@
+:root {
+    --black: #1d1d1d;
+    --dark-3: #6d6d6d;
+    --gray-4: #e0e0e0;
+    --light-3: #fafafa;
+    --white: #ffffff;
+  }
+.footer-five {
+    background-color: var(--light-3);
+    text-align: center;
+    font-size: x-large;
+    margin-top: -2%;
+    padding: 30;
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-five .footer-top-content {
+      padding: 80px 0 60px 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .footer-five .footer-top-content {
+      padding: 50px 0 50px 0;
+    }
+  }
+  .footer-five .social {
+    margin-top: 25px;
+  }
+  .footer-five .social li {
+    display: inline-block;
+    margin: 0 4px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-five .social li {
+      margin: 4px;
+    }
+  }
+  .footer-five .social div {
+    font-size: 18px;
+    color: var(--dark-3);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid var(--gray-4); 
+    border-radius: 50%;
+  }
+  .footer-five .social div:hover {
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: transparent;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  
+  .footer-five .footer-support span {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    font-weight: 600;
+    margin-top: 9px;
+    display: block;
+  }
+  @media (max-width: 767px) {
+    .footer-five .footer-support span {
+      display: block;
+    }
+  }
+  .input{
+    height: 5vh;
+    width: 25vw;
+    border-radius:2em;
+    padding:.5em 1em
+  }
+  .icon-rtl {
+    padding-right: 25px;
+    background: url("../../public/assests/footer/send.jpg") no-repeat right;
+    background-size: 40px;
+  }
+
+  .topFooter .middle{
+    position: relative;
+     top: -1.6rem;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+  }
+  .logo img{
+    width: 50px;
+  }
+  .topFooter{
+    margin-bottom: 2rem;
+   }
+
+  @media only screen and (max-width: 767px) {
+   .topFooter{
+    margin-bottom: -1rem;
+   }
+
+   .input{
+    height: 5vh;
+    width: 55vw;
+    border-radius:2em;
+    padding:.5em 1em
+  }
+  }
+
+ 
+  
+  
+  
+  
+  
+  

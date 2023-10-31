@@ -1,0 +1,113 @@
+.container {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5vmax 4vmax;
+
+}
+
+.header h1 {
+    font-size: 3.5vmax;
+    font-weight: 500;
+    margin-bottom: 2vmax;
+}
+
+.header p {
+    color: #4F4F4F;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 80px 60px; */
+    padding: 5vmax 4vmax;
+}
+
+.left {
+    flex-direction: row;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+
+.image {
+    width: 60%;
+    text-align: center;
+    /* box-shadow: 0px 30px 30px 20px #111; */
+
+    
+}
+
+.image img {
+    height: 20vmax;
+    width: 18vmax;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vmx;
+    font-family: "Baloo Bhai";
+}
+.block .heads img{
+
+    width: 50px;
+  height: 50px;
+  margin-top: 8%;
+ 
+}
+
+
+.heads {
+    width: 100%;
+    display: flex;
+}
+
+.heads img {
+    height: 14vmax;
+    width: 14vmax;
+}
+
+.side {
+    width: 20vmax;
+    padding: 6% 3%;
+}
+
+.side h2 {
+    font-size: 4.5vmax;
+    font-weight: 400;
+}
+
+.side h4 {
+    font-size: 3vmax;
+    font-weight: 200;
+}
+
+.desc {
+    width: 60%;
+    color: #4F4F4F;
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .desc {
+        width: 100%;
+    }
+    .heads {
+        justify-content: center;
+    }
+}

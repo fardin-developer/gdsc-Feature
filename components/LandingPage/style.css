@@ -1,0 +1,57 @@
+
+
+body html{
+    height:100%;
+    width: 100%;
+    background-color: grey;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background-image{
+    margin-top: 16rem;
+    /* height: 100vh; */
+    margin-bottom: -5rem;
+    background-image: url("../../public/assests/landingPage/Rectangle35.jpg");
+}
+.university-title{
+    height: fit-content;
+    width: fit-content;
+    margin: 50px auto 200px auto;
+}
+.gdsc-image{
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.gdsc-image img{
+    width: 25vw;
+    height: auto;
+    margin:  auto;
+
+}
+.container{
+    height: fit-content;
+}
+.content{
+    height: fit-content;
+    width: fit-content;
+    margin: 10px auto;
+    text-align: center;
+}
+.content h1{
+    font-size: 4rem;
+}
+.content h2{
+    margin-top: 50px;
+    max-width: 600px;
+    font-size: 1.2 rem;
+    text-align: center;
+    font-weight: 100;
+}
+

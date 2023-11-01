@@ -72,6 +72,7 @@ a {
 @media only screen and (max-width: 768px) {
     .nav {
         width: 100vw;
+        box-shadow: 0px 0px 16px -8px #3b3b3b;
     }
     .logoText .heading {
         font-size: 1.7rem;
@@ -98,6 +99,8 @@ a {
         right: -60vw;
         border-radius: 1rem;
         transition: right 0.5s ease; /* Smooth transition */
+        border-left: 1px solid rgb(247, 242, 242);
+        border-top:1px solid rgb(247, 242, 242);
     }
 
     .menuList.active {

@@ -16,9 +16,12 @@ const Content = () => {
                 {
                     contentData?.map((item, index) => (
                         <div className={`${Styles.wrapper} ${index % 2 == 0 ? Styles.right : Styles.left}`} key={index}>
+                            
                             <div className={Styles.image}>
                                 <img src={item.imgUrl} alt={item.title} />
                             </div>
+
+
                             <div className={Styles.block}>
                                 <div className={Styles.heads}>
                                     <div className={Styles.side}>
@@ -29,7 +32,7 @@ const Content = () => {
                                                 <div className={Styles.gifPosition}>
                                                     <img src="/assests/content/google.gif" alt="google" />
                                                 </div>
-                                                <div>
+                                                <div className={Styles.h2div}>
                                                     <h2>{item.title}</h2>
                                                 </div>
                                             </div>

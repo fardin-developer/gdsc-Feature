@@ -4,6 +4,7 @@ import Event from "@/components/events/Event"
 import Teams from "@/components/Teams/teams";
 import Footer from "@/components/Footer/footer";
 import LandingPage from "@/components/LandingPage/LandingPage";
+import FooterNew from "@/components/FooterNew/footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Event />
       <Teams />
       {/* <Footer/> */}
+      <FooterNew/>
     </main>
   );
 }

@@ -1,7 +1,10 @@
+"use client";
 import { contentData } from "./data";
 import Styles from "./content.module.css";
 import Head from "next/head";
 import { Style } from "@mui/icons-material";
+import CountUp from 'react-countup';
+
 
 const Content = () => {
     return (
@@ -16,7 +19,7 @@ const Content = () => {
                 {
                     contentData?.map((item, index) => (
                         <div className={`${Styles.wrapper} ${index % 2 == 0 ? Styles.right : Styles.left}`} key={index}>
-                            
+
                             <div className={Styles.image}>
                                 <img src={item.imgUrl} alt={item.title} />
                             </div>
@@ -36,12 +39,11 @@ const Content = () => {
                                                     <h2>{item.title}</h2>
                                                 </div>
                                             </div>
-
-                                            <h4 >150+</h4>
+                                            <h4 style={{marginTop:"-2rem"}}><CountUp start={0} end={300} duration={4}/> +</h4>
                                             <p className={Styles.desc}>{item.description}</p>
                                         </div>
 
-                                        
+
                                     </div>
                                 </div>
 

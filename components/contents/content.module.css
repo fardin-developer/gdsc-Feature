@@ -112,6 +112,42 @@
 
 }
 
+@keyframes colorChange {
+    0% {
+        color: initial;
+    }
+
+    20% {
+        color: blue;
+    }
+
+    40% {
+        color: red;
+    }
+
+    50% {
+        color: green;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    70% {
+        color: rgb(241, 42, 108);
+    }
+
+    90% {
+        color: rgb(75, 52, 204);
+    }
+
+    100% {
+        color: initial;
+    }
+
+}
+
+
 .oneContainer {
     /* background-color: aqua; */
     position: relative;
@@ -120,6 +156,11 @@
 
 .oneContainer h2 {
     margin-left: 2.7rem;
+}
+
+.oneContainer h4 {
+    animation: colorChange 4s;
+
 }
 
 .titlenGif {

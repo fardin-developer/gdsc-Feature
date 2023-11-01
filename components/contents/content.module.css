@@ -118,27 +118,33 @@
     }
 
     20% {
-        color: blue;
+        color: rgb(85, 85, 97);
+    }
+    30% {
+        color: rgb(121, 187, 130);
     }
 
     40% {
-        color: red;
+        color: rgb(189, 132, 132);
     }
 
     50% {
-        color: green;
+        color: rgb(86, 112, 86);
     }
 
     60% {
-        color: blue;
+        color: rgb(107, 107, 187);
     }
 
     70% {
-        color: rgb(241, 42, 108);
+        color: rgb(250, 134, 173);
+    }
+    80% {
+        color: rgb(99, 45, 63);
     }
 
     90% {
-        color: rgb(75, 52, 204);
+        color: rgb(101, 98, 117);
     }
 
     100% {

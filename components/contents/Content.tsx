@@ -39,7 +39,7 @@ const Content = () => {
                                                     <h2>{item.title}</h2>
                                                 </div>
                                             </div>
-                                            <h4 style={{marginTop:"-2rem"}}><CountUp start={0} end={300} duration={4}/> +</h4>
+                                            <h4 style={{marginTop:"-1rem"}}><CountUp start={0} end={300} duration={4}/> +</h4>
                                             <p className={Styles.desc}>{item.description}</p>
                                         </div>
 

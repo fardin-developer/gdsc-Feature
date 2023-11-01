@@ -60,7 +60,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vmx;
+    width: 30vw;
 
 }
 
@@ -87,7 +87,7 @@
 }
 
 .side {
-    width: 20vmax;
+    width: 100%;
     padding: 6% 3%;
 }
 

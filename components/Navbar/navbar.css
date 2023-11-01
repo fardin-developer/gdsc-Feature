@@ -12,6 +12,20 @@
     z-index: 10000000;
     box-sizing: border-box;
 
+
+}
+
+li a {
+    font-weight: 200;
+}
+
+.heading p {
+    font-weight: 200;
+}
+
+.subHeading p {
+    font-weight: 200;
+
 }
 
 /* .imgShadow{
@@ -74,15 +88,19 @@ a {
         width: 100vw;
         box-shadow: 0px 0px 16px -8px #3b3b3b;
     }
+
     .logoText .heading {
         font-size: 1.7rem;
     }
+
     .logoText .subHeading {
         font-size: 1.4rem;
     }
+
     .right {
         display: none;
     }
+
     .menu {
         display: block;
         margin-right: 3rem;
@@ -98,13 +116,14 @@ a {
         bottom: 0;
         right: -60vw;
         border-radius: 1rem;
-        transition: right 0.5s ease; /* Smooth transition */
+        transition: right 0.5s ease;
+        /* Smooth transition */
         border-left: 1px solid rgb(247, 242, 242);
-        border-top:1px solid rgb(247, 242, 242);
+        border-top: 1px solid rgb(247, 242, 242);
     }
 
     .menuList.active {
-        right: 0; 
+        right: 0;
     }
 
     .menuList a {
@@ -122,19 +141,14 @@ a {
 }
 
 @media only screen and (min-width: 769px) {
-    .menuList{
+    .menuList {
         display: none;
     }
-   
-  }
 
-  @media only screen and (min-width: 767px) and (max-width: 830px) {
+}
+
+@media only screen and (min-width: 767px) and (max-width: 830px) {
     .logoText .heading {
         font-size: 1.6rem;
     }
 }
-
-
-
-
-

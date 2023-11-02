@@ -6,7 +6,8 @@
     --white: #ffffff;
   }
 .footer-five {
-    background-color: var(--light-3);
+    /* background-color: var(--light-3); */
+    background-color: rgba(218, 218, 218, 0.219);
     text-align: center;
     font-size: x-large;
     margin-top: -2%;
@@ -131,8 +132,12 @@
 
  }
   
-  
-  
+.icons{
+  margin: 2rem 0;
+}
+.footer-copyright{
+  bottom: 0vh;
+}
   
   
   

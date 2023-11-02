@@ -24,8 +24,7 @@ const Footer = () => {
           </div>
           <div
             style={{
-              backgroundImage: "url('https://www.gdsc-uit.org/_next/static/image/src/assets/images/decor-light.ad6149bd9ae88855a8048f5ca7f8284b.png')",
-              height: "30vh",
+              height: "33vh",
               backgroundSize: "contain",
               backgroundRepeat: "repeat",
             }}
@@ -41,7 +40,7 @@ const Footer = () => {
             <div className="input-icons">
               <input className="input icon-rtl" placeholder="Enter Email" />
             </div>
-            <div className="social text-center mt-60">
+            <div className="social text-center mt-20">
               <ul>
                 <li>
                   <span>
@@ -49,7 +48,7 @@ const Footer = () => {
                   </span>
                 </li>
                 <br />
-                <li>
+                <li style={{marginTop:"-3rem"}}>
                   <div>
                     <a href="https://instagram.com/gdsc_tezu?igshid=MzRlODBiNWFlZA==">
                       <InstagramIcon />
@@ -80,6 +79,7 @@ const Footer = () => {
                     </a>
                   </div>
                 </li>
+                
               </ul>
             </div>
           </div>

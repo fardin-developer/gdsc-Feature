@@ -169,6 +169,7 @@
 .oneContainer {
     /* background-color: aqua; */
     position: relative;
+    text-align: justify;
 
 }
 
@@ -212,7 +213,7 @@
     }
 
     .side {
-        width: 100%;
+        width: 95%;
     }
 
     .gifPosition {

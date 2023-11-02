@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           <div
             style={{
-              height: "33vh",
+              height: "130%",
               backgroundSize: "contain",
               backgroundRepeat: "repeat",
             }}

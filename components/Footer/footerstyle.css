@@ -137,7 +137,8 @@
   margin: 2rem 0;
 }
 .footer-copyright{
-  bottom: 0vh;
+  margin-top: 3rem;
+  /* bottom: 0vh; */
 }
   
   

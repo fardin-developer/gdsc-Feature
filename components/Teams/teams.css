@@ -88,7 +88,13 @@ body {
   border-radius: 8px;
 }
 .carousel .card .img {
-  background: red;
+  background: rgb(86, 202, 86);
+  height: 148px;
+  width: 148px;
+  border-radius: 50%;
+}
+.carousel .abhinav .img {
+  background: rgb(46, 51, 48);
   height: 148px;
   width: 148px;
   border-radius: 50%;

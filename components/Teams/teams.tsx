@@ -11,7 +11,7 @@ const Teams = () => {
                 OUR TEAM
             </h1>
             <ul className="carousel">
-                <li className="card">
+                <li className="card abhinav">
                     <div className="img">
                         <img src="../assests/members/Abhinav.webp" alt="img" draggable="false" />
                     </div>

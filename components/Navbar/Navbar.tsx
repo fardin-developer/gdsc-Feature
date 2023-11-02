@@ -37,10 +37,9 @@ const Navbar = () => {
 
                 <div className="right">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">Team</a></li>
-                    <li><a href="/">Explore Us</a></li>
-                    <li><a href="/">Videos</a></li>
-                    <li><a href="/">Core</a></li>
+                    <li><a href="/team">Team</a></li>
+                    <li><a href="https://gdsc.community.dev">Explore Us</a></li>
+                    <li onClick={() => { alert("coming soon") }}><a href="">Blogs</a></li>
 
 
 
@@ -52,16 +51,14 @@ const Navbar = () => {
                         <CloseIcon style={{ fontSize: "40" }} />
                     )}
 
-                    
+
                 </div>
                 <div className={`menuList ${menu ? 'active' : ''}`}>
-                <li><a href="/">Home</a></li>
-                    <li><a href="/">Team</a></li>
-                    <li><a href="/">Explore Us</a></li>
-                    <li><a href="/">Videos</a></li>
-                    <li><a href="/">Core</a></li>
-
-                    </div>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#team">Team</a></li>
+                    <li><a href="https://gdsc.community.dev">Explore Us</a></li>
+                    <li onClick={() => { alert("coming soon") }}><a href="">Blogs</a></li>
+                </div>
 
             </div>
             <nav className="imgShadow">

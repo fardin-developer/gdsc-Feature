@@ -67,7 +67,8 @@ li a {
     justify-content: center;
     align-items: center;
     gap: 52px;
-    margin-right: 3rem;
+    margin-right: 6.3rem;
+    font-size: 1.8rem;
 }
 
 .right li {

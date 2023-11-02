@@ -1,11 +1,32 @@
+"use client";
 import React from 'react'
 import './teams.css'
+import { useEffect } from 'react';
+
+
 
 
 const Teams = () => {
 
+    useEffect(() => {
+        const teamLink = document.querySelector('a[href="/team"]');
+        if (teamLink) {
+          teamLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            const teamSection = document.getElementById('team');
+            if (teamSection) {
+              window.scrollTo({
+                top: teamSection.offsetTop,
+                behavior: 'smooth',
+              });
+            }
+          });
+        }
+      }, []);
+    
+
     return (
-        <div className="wrapper">
+        <div className="wrapper" id='team'>
             {/* <i id="left" className="fa-solid fa-angle-left"> Swipe </i> */}
             <h1 className='title'>
                 OUR TEAM

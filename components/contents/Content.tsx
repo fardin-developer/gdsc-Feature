@@ -22,6 +22,8 @@ const Content = () => {
     //     scrollSpyDelay: 4000,
     // });
     const [hasScrolled, setHasScrolled] = useState(false);
+    const [isVisible, setIsVisible] = useState(Array(contentData.length).fill(false));
+
 
 
     useEffect(() => {
@@ -56,8 +58,11 @@ const Content = () => {
                         <div className={`${Styles.wrapper} ${index % 2 == 0 ? Styles.right : Styles.left}`} key={index}>
                             <motion.div initial={{ opacity: 0, x: -100 }}
                                 whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ delay: 0.9, duration: 3 }}
-                                viewport={{ once: true }}>
+                                transition={{ delay: 0.3, duration: 2.5 }}
+                                // viewport={{ once: true }}
+                                // animate={{ opacity: 1, x: 0 }}
+
+                                >
 
                                 <div className={Styles.image}>
                                     <img src={item.imgUrl} alt={item.title} />
@@ -65,10 +70,14 @@ const Content = () => {
                             </motion.div>
 
                             <motion.div
-                                initial={{ opacity: 0, x: 100 }}
+                                initial={{ opacity: 0, x: 200}}
                                 whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ delay: 1.2, duration: 2 }}
-                                viewport={{ once: true }}>
+                                transition={{ delay: 0.6, duration: 2.5 }}
+                                viewport={{ once: true }}
+                                animate={{ opacity: 1.3, x: 0 }}
+
+
+                                >
 
                                 <div className={Styles.block}>
                                     <div className={Styles.heads}>

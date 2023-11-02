@@ -7,8 +7,8 @@
 }
 
 .footer-five {
-  background-color: rgba(218, 218, 218, 0.219);
-  background-image: url("../../public/assests/landingPage/Rectangle35.jpg");
+  background-color: rgba(224, 219, 219, 0.219);
+  /* background-image: url("../../public/assests/landingPage/Rectangle35.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -18,6 +18,12 @@
   padding: 30;
   font-weight: 200;
 }
+
+.footer-five p {
+  font-weight: 300;
+}
+
+
 
 .footer-five p {
   font-weight: 300;
@@ -160,7 +166,7 @@
   .topFooter{
 
     position: relative; /* Set the position to relative */
-    top: -1.5rem; 
+    top: -0.5rem; 
     margin-top: 8rem;
   }
 }

@@ -50,7 +50,7 @@ const Content = () => {
                                             <h4 style={{ marginTop: "-1rem", display: "flex" }}>
                                                 <CountUp start={0} end={300} duration={4}
                                                     enableScrollSpy
-                                                    scrollSpyDelay={1000}
+                                                    scrollSpyDelay={500}
                                                 />
                                                 <span className={Styles.plusToggle}>+</span></h4>
                                             <p className={Styles.desc}>{item.description}</p>

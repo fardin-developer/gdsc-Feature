@@ -11,6 +11,10 @@
     font-size: x-large;
     margin-top: -2%;
     padding: 30;
+    font-weight: 200;
+  }
+  .footer-five p{
+    font-weight: 300;
   }
   
   
@@ -78,15 +82,17 @@
     }
   }
   .input{
-    height: 5vh;
-    width: 25vw;
+    height: 3vh;
+    width: 32vw;
     border-radius:2em;
-    padding:.5em 1em
+    padding:.5em 8em
   }
   .icon-rtl {
-    padding-right: 25px;
     background: url("../../public/assests/footer/send.jpg") no-repeat right;
-    background-size: 40px;
+    background-size: 30px;
+    padding-left: 25px; /* Adjust the padding-left to create space for the icon */
+    padding-right: 33px;
+
   }
 
   .topFooter .middle{
@@ -96,12 +102,14 @@
      align-items: center;
      flex-direction: column;
      justify-content: center;
+     /* margin-top: 2rem; */
   }
   .logo img{
-    width: 50px;
+    width: 30px;
+    margin-top:6px ;
   }
   .topFooter{
-    margin-bottom: 2rem;
+    font-weight: 200;
    }
 
   @media only screen and (max-width: 767px) {
@@ -117,7 +125,9 @@
   }
   }
 
- 
+ .topFooter{
+  margin-top: 3rem;
+ }
   
   
   

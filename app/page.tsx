@@ -14,7 +14,7 @@ export default function Home() {
       <Content />
       <Event />
       <Teams />
-      {/* <Footer/> */}
+      <Footer/>
       {/* <FooterNew/> */}
     </main>
   );

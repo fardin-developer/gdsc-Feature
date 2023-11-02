@@ -6,7 +6,7 @@
     height: 7rem;
     left: 0%;
     right: 0%;
-    box-shadow: 0px 0px 5px 0px #111;
+    box-shadow: 0px 0px 16px -8px #3b3b3b;
     position: fixed;
     width: 100vw;
     z-index: 10000000;

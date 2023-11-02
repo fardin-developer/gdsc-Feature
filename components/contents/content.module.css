@@ -148,9 +148,21 @@
     }
 
     100% {
-        color: initial;
+        color: rgb(136, 133, 129);
     }
 
+}
+
+@keyframes plusToggle {
+    0% {
+        display: block;
+    }
+    50% {
+        display: none;
+    }
+    100% {
+        display: none;
+    }
 }
 
 
@@ -165,8 +177,12 @@
 }
 
 .oneContainer h4 {
-    animation: colorChange 4s;
+    animation: colorChange 4s infinite;
 
+
+}
+.plusToggle{
+    animation: plusToggle 1s infinite 3.8s;
 }
 
 .titlenGif {

@@ -1,145 +1,166 @@
 :root {
-    --black: #1d1d1d;
-    --dark-3: #6d6d6d;
-    --gray-4: #e0e0e0;
-    --light-3: #fafafa;
-    --white: #ffffff;
-  }
+  --black: #1d1d1d;
+  --dark-3: #6d6d6d;
+  --gray-4: #e0e0e0;
+  --light-3: #fafafa;
+  --white: #ffffff;
+}
+
 .footer-five {
-    /* background-color: var(--light-3); */
-    background-color: rgba(218, 218, 218, 0.219);
-    
-    text-align: center;
-    font-size: x-large;
-    margin-top: -2%;
-    padding: 30;
-    font-weight: 200;
-  }
-  .footer-five p{
-    font-weight: 300;
-  }
+  background-color: rgba(218, 218, 218, 0.219);
+  background-image: url("../../public/assests/landingPage/Rectangle35.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  font-size: x-large;
+  margin-top: -2%;
+  padding: 30;
+  font-weight: 200;
+}
+
+.footer-five p {
+  font-weight: 300;
+}
 
 
-  
-  
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .footer-five .footer-top-content {
-      padding: 80px 0 60px 0;
-    }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-five .footer-top-content {
+    padding: 80px 0 60px 0;
   }
-  @media (max-width: 767px) {
-    .footer-five .footer-top-content {
-      padding: 50px 0 50px 0;
-    }
+}
+
+@media (max-width: 767px) {
+  .footer-five .footer-top-content {
+    padding: 50px 0 50px 0;
   }
-  .footer-five .social {
-    margin-top: 25px;
-  }
+}
+
+.footer-five .social {
+  margin-top: 25px;
+}
+
+.footer-five .social li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+@media (max-width: 767px) {
   .footer-five .social li {
-    display: inline-block;
-    margin: 0 4px;
+    margin: 4px;
   }
-  
-  @media (max-width: 767px) {
-    .footer-five .social li {
-      margin: 4px;
-    }
-  }
-  .footer-five .social div {
-    font-size: 18px;
-    color: var(--dark-3);
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    text-align: center;
-    border: 1px solid var(--gray-4); 
-    border-radius: 50%;
-  }
-  .footer-five .social div:hover {
-    cursor: pointer;
-    color: var(--white);
-    background-color: var(--primary);
-    border-color: transparent;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-  
+}
+
+.footer-five .social div {
+  font-size: 18px;
+  color: var(--dark-3);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid var(--gray-4);
+  border-radius: 50%;
+}
+
+.footer-five .social div:hover {
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--primary);
+  border-color: transparent;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.footer-five .footer-support span {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  font-weight: 600;
+  margin-top: 9px;
+  display: block;
+}
+
+@media (max-width: 767px) {
   .footer-five .footer-support span {
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--black);
-    font-weight: 600;
-    margin-top: 9px;
     display: block;
   }
-  @media (max-width: 767px) {
-    .footer-five .footer-support span {
-      display: block;
-    }
-  }
-  .input{
-    height: 5vh;
-    width: 32vw;
-    border-radius:2em;
-    padding:.5em 8em
-  }
-  .icon-rtl {
-    background: url("../../public/assests/footer/send.jpg") no-repeat right;
-    background-size: 30px;
-    padding-left: 25px; /* Adjust the padding-left to create space for the icon */
-    padding-right: 33px;
+}
 
-  }
+.input {
+  height: 5vh;
+  width: 32vw;
+  border-radius: 2em;
+  padding: .5em 8em
+}
 
-  .topFooter .middle{
-    position: relative;
-     top: -1.9rem;
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     justify-content: center;
-     /* margin-top: 2rem; */
-  }
-  .logo img{
-    width: 30px;
-  }
-  .topFooter{
-    font-weight: 200;
-   }
+.icon-rtl {
+  background: url("../../public/assests/footer/send.jpg") no-repeat right;
+  background-size: 30px;
+  padding-left: 25px;
+  /* Adjust the padding-left to create space for the icon */
+  padding-right: 33px;
 
-  @media only screen and (max-width: 767px) {
-   .topFooter{
+}
+
+.topFooter .middle {
+  position: relative;
+  top: -1.9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 2rem; */
+}
+
+.logo img {
+  width: 30px;
+}
+
+.topFooter {
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 767px) {
+  .topFooter {
     margin-bottom: -1rem;
-   }
+  }
 
-   .input{
+  .input {
     height: 3vh;
     width: 55vw;
-    border-radius:2em;
-    padding:.5em 1em
+    border-radius: 2em;
+    padding: .5em 1em
   }
-  }
+}
 
- .topFooter{
+.topFooter {
   margin-top: 3rem;
 
- }
-  
-.icons{
+}
+
+.icons {
   margin: 2rem 0;
 }
-.footer-copyright{
+
+.footer-copyright {
   margin-top: 3rem;
   /* bottom: 0vh; */
 }
-  
-  
-  
+@media (min-width: 1400px) {
+  .topFooter{
+
+    position: relative; /* Set the position to relative */
+    top: -1.5rem; 
+    margin-top: 8rem;
+  }
+}

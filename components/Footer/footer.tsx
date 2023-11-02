@@ -27,6 +27,7 @@ const Footer = () => {
               height: "130%",
               backgroundSize: "contain",
               backgroundRepeat: "repeat",
+              
             }}
           >
             <p className="text-center" style={{ "marginTop": "max(0rem, 2rem)" }}>
